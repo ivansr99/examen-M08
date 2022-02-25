@@ -1,29 +1,25 @@
-.pelotasFixed{
-    background:lightgray;
-    background-image: url(ball.png);
-    background-size: 200px 200px;
-    width: 200px;
-    height: 200px;
-    position:fixed;
-    left: -1px;
-}
 .pelotaPeque{
-    background:lightgray;
+    background:transparent;
     background-image: url(ball.png);
     background-size: 200px 200px;
     width: 200px;
     height: 200px;
+    position: absolute;
+    left:900px;
+    top: 300px;
 }
 
 
 .pelotaGrande{
-    background:gray;
+    background:transparent;
     background-image: url(ball.png);
     background-size: 400px 400px;
     width: 400px;
     height: 400px;
     position:absolute;
-    left:200px;
+    left:250px;
+    top: 400px;
+
 }
 
 .portePeque{
@@ -32,9 +28,10 @@
     background-size: 400px 200px;
     width: 400px;
     height: 200px;
-    position:absolute;
-    left:200px;
-    top:400px;
+    position: fixed;
+    left:800px;
+    top:1px;
+    z-index: -1;
 }
 
 .porteGrande{
@@ -43,9 +40,9 @@
     background-size: 800px 400px;
     width: 800px;
     height: 400px;
-    position:absolute;
-    left:200px;
-    top:600px;
+    position: fixed;
+    top:1px;
+    z-index: -1;
 }
 
 
