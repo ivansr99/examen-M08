@@ -10,7 +10,7 @@
     background-size: 200px 200px;
     width: 200px;
     height: 200px;
-    float:right;
+    float:left;
 }
 
 .pelotaPeque2{
@@ -38,6 +38,11 @@
     background-size: 600px 400px;
     width: 600px;
     height: 400px;
+    float:left;
+}
+.Pelotas{
+    background:lightblue;
+    background-image: url(ball.png);
     float:left;
 }
 
